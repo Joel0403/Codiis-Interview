@@ -67,6 +67,6 @@ def update_efficiency_metrics(selected_sprint):
     fig = px.scatter(filtered_df, x='Module', y='Efficiency', color='Sprint', title='Efficiency Metrics')
     return fig
 
-# Run the app
+# Run the app ajith
 if __name__ == '__main__':
     app.run_server(debug=True)
